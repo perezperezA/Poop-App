@@ -2,6 +2,6 @@
 .foreground-fill            { fill: fb-white; }
 .background-fill            { fill: fb-black; }
 
-#button-1 #image {
+#poopButton #image {
     href: "button.png";
 }

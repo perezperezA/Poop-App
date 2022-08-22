@@ -26,7 +26,7 @@ export function init() {
 
 
 
-var poopbutton = document.getElementById('clicker');
+var poopbutton = document.getElementById('poopButton');
   const amountOfPoops = getStateItem('amountOfPoops');
 document.getElementById('poopstaken').text = getStateItem('amountOfPoops');
   poopbutton.onclick = () => {
