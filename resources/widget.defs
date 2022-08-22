@@ -11,5 +11,6 @@
     <link rel="import" href="/mnt/sysassets/system_widget.defs" />
 
     <link rel="import" href="components/button.gui" />
+    <link rel="import" href="/mnt/sysassets/widgets/text_button.defs" />
   </defs>
 </svg>
