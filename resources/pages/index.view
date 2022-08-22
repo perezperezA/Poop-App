@@ -1,5 +1,5 @@
-<svg viewport-fill="black">
-  <image href="Logo.png" x="20" y="50" width="300" height="300"/>
+<svg viewport-fill="green">
+  <image href="Logo.png" x="35" y="35" width="266" height="266"/>
   <use href="#button" x="0%" y="0" width="336" height="336">
     <set href="text" attributeName="text-buffer" to=""/>
     <set href="handle" attributeName="id" to="detail-button" />
