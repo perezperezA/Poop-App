@@ -2,10 +2,14 @@
 <defs>
     <link rel="stylesheet" href="detail.css" />
   </defs>
-  <textarea fill="#ffffff" x="18" y="155" width="300" height="110" font-size="25" font-family="System-Regular" text-anchor="middle" text-buffer="Amount of Poops" />
-  <text fill="#ffffff" id="poopstaken" x="50%" y="225" class="large-value" text-length="4" text-anchor="middle" font-family="System-Bold">poopstaken</text>
-  <textarea fill="#ffffff" x="18" y="20" width="300" height="110" font-size="25" font-family="System-Regular" text-anchor="middle" text-buffer="Heart rate" />
-  <text fill="#ffffff" id="heartRate" x="50%" y="100" class="large-value" text-length="4" text-anchor="middle" font-family="System-Bold">heartRate</text>
-  <use id="poopButton" href="#icon-text-button" class="icon-text-button bottom application-fill" />
+  <textarea fill="#ffffff" x="18" y="15" width="300" height="110" font-size="25" font-family="System-Regular" text-anchor="middle" text-buffer="Amount of Poops" />
+  <text fill="#ffffff" id="poopstaken" x="50%" y="90" class="large-value" text-length="4" text-anchor="middle" font-family="System-Bold">poopstaken</text>
+  <textarea fill="#ffffff" x="18" y="200" width="300" height="110" font-size="25" font-family="System-Regular" text-anchor="middle" text-buffer="Heart rate" />
+
+  <use href="#button" x="10%" y="96" width="80%">
+    <set href="text" attributeName="text-buffer" to="Press for new drop" />
+    <set href="handle" attributeName="id" to="clicker" />
+  </use>
+  <use id="button-1" href="#icon-text-button" class="icon-text-button bottom application-fill" />
 
 </svg>
